@@ -1,11 +1,12 @@
-choice = input("তুমি কি আমাদের সাথে যেতে চাও ? [Yes/No]")
+choice = input("তুমি কি আমাদের সাথে যেতে চাও ? [Yes/No]:")
 if choice == "Yes" or choice == "yes":
     print("রহস্যময় দ্বীপ এ তোমাকে স্বাগতম !")
-    choice = input("তুমি কি ঝর্ণার কাছে যাবে ? [Yes/No]")
+    choice = input("তুমি কি ঝর্ণার কাছে যাবে ? [Yes/No]:")
     if choice == "Yes" or choice == "yes":
-        choice = input("ঝর্ণার পানিতে নামবে ? [Yes/No]")
+        choice = input("ঝর্ণার পানিতে নামবে ? [Yes/No]:")
         if choice == "Yes" or choice == "yes":
-            choice = input("হায় হায় তুমি তো সাঁতার জানোনা ! you are a loser!")
+            print("হায় হায় তুমি তো সাঁতার জানোনা ! you are a loser!")
+
         else:
             choice = input("ঝর্ণার পাশে বসবে? [Yes/No]")
             if choice == "Yes" or choice == "yes":
