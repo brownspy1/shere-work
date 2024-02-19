@@ -6,7 +6,6 @@ if choice == "Yes" or choice == "yes":
         choice = input("ঝর্ণার পানিতে নামবে ? [Yes/No]:")
         if choice == "Yes" or choice == "yes":
             print("হায় হায় তুমি তো সাঁতার জানোনা ! you are a loser!")
-
         else:
             choice = input("ঝর্ণার পাশে বসবে? [Yes/No]")
             if choice == "Yes" or choice == "yes":
