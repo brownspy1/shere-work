@@ -2,44 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Embedded Google Sheet</title>
+  <title>Google Sheet Partial View</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      padding: 20px;
+      font-family: sans-serif;
+      background: #f0f0f0;
+      text-align: center;
     }
-
-    h1 {
-      margin-top: 20px;
-      color: #333;
-    }
-
-    .sheet-container {
-      width: 90%;
-      max-width: 1200px;
-      height: 90vh;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      margin: 20px auto;
-    }
-
     iframe {
-      width: 100%;
-      height: 100%;
       border: none;
+      width: 100%;
+      max-width: 800px;
+      height: 500px; /* Adjust height as needed */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
-  <h1>Google Sheet Viewer</h1>
-  <div class="sheet-container">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQHUCPR1M5vCkm1xkNlpTrtLBA2ZlCXCBMb4T-2bzwDukb4LfWKFDPMvVNBATe-_lb4C_O2buvmCnEF/pubhtml?gid=355353292&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-  </div>
+  <h2>Google Sheet Embedded</h2>
+  <iframe 
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQHUCPR1M5vCkm1xkNlpTrtLBA2ZlCXCBMb4T-2bzwDukb4LfWKFDPMvVNBATe-_lb4C_O2buvmCnEF/pubhtml?gid=355353292&amp;single=true&amp;widget=true&amp;headers=false">
+  </iframe>
 </body>
 </html>
